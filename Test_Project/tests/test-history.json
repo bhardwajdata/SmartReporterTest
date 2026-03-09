@@ -1,0 +1,431 @@
+{
+  "runs": [],
+  "tests": {
+    "[chromium] example.spec.js::get started link": [
+      {
+        "passed": true,
+        "duration": 3413,
+        "timestamp": "2026-03-06T10:46:59.568Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 5727,
+        "timestamp": "2026-03-06T10:50:33.301Z",
+        "skipped": false,
+        "retry": 4
+      }
+    ],
+    "[chromium] example.spec.js::has title": [
+      {
+        "passed": true,
+        "duration": 555,
+        "timestamp": "2026-03-06T10:46:59.568Z",
+        "skipped": false,
+        "retry": 1
+      },
+      {
+        "passed": true,
+        "duration": 810,
+        "timestamp": "2026-03-06T10:50:33.301Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chromium] Smoke/qa.spec.js::QA get started link": [
+      {
+        "passed": false,
+        "duration": 7790,
+        "timestamp": "2026-03-09T05:30:40.968Z",
+        "skipped": false,
+        "retry": 4
+      },
+      {
+        "passed": false,
+        "duration": 3991,
+        "timestamp": "2026-03-09T05:31:46.853Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 7271,
+        "timestamp": "2026-03-09T05:32:59.842Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chromium] Smoke/dev.spec.js::get started link": [
+      {
+        "passed": false,
+        "duration": 7512,
+        "timestamp": "2026-03-09T05:30:40.968Z",
+        "skipped": false,
+        "retry": 4
+      },
+      {
+        "passed": false,
+        "duration": 8559,
+        "timestamp": "2026-03-09T05:31:46.853Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chromium] Smoke/qa.spec.js::QAtitle": [
+      {
+        "passed": true,
+        "duration": 8254,
+        "timestamp": "2026-03-09T05:46:50.777Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 6636,
+        "timestamp": "2026-03-09T05:47:43.391Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 14623,
+        "timestamp": "2026-03-09T05:55:08.972Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 4744,
+        "timestamp": "2026-03-09T05:56:35.069Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 4540,
+        "timestamp": "2026-03-09T05:58:23.694Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 5248,
+        "timestamp": "2026-03-09T05:59:31.801Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 4722,
+        "timestamp": "2026-03-09T06:01:16.078Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 3163,
+        "timestamp": "2026-03-09T06:02:19.601Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 3504,
+        "timestamp": "2026-03-09T06:03:12.213Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 3352,
+        "timestamp": "2026-03-09T06:04:56.759Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chromium] Smoke/dev.spec.js::has title": [
+      {
+        "passed": true,
+        "duration": 4769,
+        "timestamp": "2026-03-09T05:46:50.777Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 3803,
+        "timestamp": "2026-03-09T05:47:43.391Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 7641,
+        "timestamp": "2026-03-09T05:55:08.972Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 2432,
+        "timestamp": "2026-03-09T05:56:35.069Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 3393,
+        "timestamp": "2026-03-09T05:58:23.694Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 2115,
+        "timestamp": "2026-03-09T05:59:31.801Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 2788,
+        "timestamp": "2026-03-09T06:01:16.078Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 2317,
+        "timestamp": "2026-03-09T06:02:19.601Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 2425,
+        "timestamp": "2026-03-09T06:03:12.213Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 1856,
+        "timestamp": "2026-03-09T06:04:56.759Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chromium] Smoke/uat.spec.js::UAT title": [
+      {
+        "passed": true,
+        "duration": 4363,
+        "timestamp": "2026-03-09T05:46:50.777Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 2028,
+        "timestamp": "2026-03-09T05:47:43.391Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 9914,
+        "timestamp": "2026-03-09T05:55:08.972Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 4141,
+        "timestamp": "2026-03-09T05:56:35.069Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 3658,
+        "timestamp": "2026-03-09T05:58:23.694Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": false,
+        "duration": 2648,
+        "timestamp": "2026-03-09T05:59:31.801Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 5414,
+        "timestamp": "2026-03-09T06:01:16.078Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 3107,
+        "timestamp": "2026-03-09T06:02:19.601Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 3128,
+        "timestamp": "2026-03-09T06:03:12.213Z",
+        "skipped": false,
+        "retry": 0
+      },
+      {
+        "passed": true,
+        "duration": 3150,
+        "timestamp": "2026-03-09T06:04:56.759Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chromium] Smoke/uat.spec.js::UAT get started link": [
+      {
+        "passed": false,
+        "duration": 972,
+        "timestamp": "2026-03-09T05:30:40.968Z",
+        "skipped": false,
+        "retry": 4
+      },
+      {
+        "passed": false,
+        "duration": 7236,
+        "timestamp": "2026-03-09T05:31:46.853Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "runId": "run-1773035198139",
+      "timestamp": "2026-03-09T05:46:38.139Z",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 2,
+      "duration": 12637,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1773035251945",
+      "timestamp": "2026-03-09T05:47:31.945Z",
+      "total": 3,
+      "passed": 2,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 1,
+      "duration": 11447,
+      "passRate": 67
+    },
+    {
+      "runId": "run-1773035689489",
+      "timestamp": "2026-03-09T05:54:49.489Z",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 3,
+      "duration": 19482,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1773035786477",
+      "timestamp": "2026-03-09T05:56:26.477Z",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 8592,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1773035897083",
+      "timestamp": "2026-03-09T05:58:17.083Z",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 6612,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1773035964429",
+      "timestamp": "2026-03-09T05:59:24.429Z",
+      "total": 3,
+      "passed": 1,
+      "failed": 2,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 7372,
+      "passRate": 33
+    },
+    {
+      "runId": "run-1773036068143",
+      "timestamp": "2026-03-09T06:01:08.143Z",
+      "total": 3,
+      "passed": 2,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 1,
+      "duration": 7934,
+      "passRate": 67
+    },
+    {
+      "runId": "run-1773036134295",
+      "timestamp": "2026-03-09T06:02:14.295Z",
+      "total": 3,
+      "passed": 2,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 5305,
+      "passRate": 67
+    },
+    {
+      "runId": "run-1773036186918",
+      "timestamp": "2026-03-09T06:03:06.918Z",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 5296,
+      "passRate": 100
+    },
+    {
+      "runId": "run-1773036291565",
+      "timestamp": "2026-03-09T06:04:51.565Z",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 5193,
+      "passRate": 100
+    }
+  ],
+  "runFiles": {}
+}
