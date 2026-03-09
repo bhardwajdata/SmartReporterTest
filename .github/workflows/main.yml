@@ -3,6 +3,9 @@ name: Smart Reporter Test
 on:
   workflow_dispatch: {}
 
+permissions:
+  contents: write  
+
 jobs:
   test:
     timeout-minutes: 90
@@ -39,3 +42,11 @@ jobs:
           name: playwright-report
           path: ./Test_Project/tests/smart-report.html
           retention-days: 30
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: Test_Project/tests
+          publish_branch: gh-pages
+          force_orphan: true
