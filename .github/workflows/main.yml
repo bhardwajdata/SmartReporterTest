@@ -30,6 +30,9 @@ jobs:
         run: npx playwright test ./Test_Project/tests/runner.spec.js --reporter=list,html --output=test-results/
         working-directory: ./Test_Project
 
+      - name: List contains of working directory
+        run: ls -R   
+
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
