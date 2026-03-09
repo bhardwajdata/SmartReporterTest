@@ -27,7 +27,7 @@ jobs:
         working-directory: ./Test_Project
 
       - name: Run Playwright tests
-        run: npx playwright test ./Test_Project/tests/runner.spec.js --reporter=list,html --output=test-results/
+        run: npx playwright test ./Test_Project/tests/runner.spec.js --reporter=list,playwright-smart-reporter --output=test-results/
         working-directory: ./Test_Project
 
       - name: List contains of working directory
@@ -37,5 +37,5 @@ jobs:
         if: ${{ !cancelled() }}
         with:
           name: playwright-report
-          path: ./Test_Project/tests/
+          path: ./Test_Project/tests/smart-report.html
           retention-days: 30
