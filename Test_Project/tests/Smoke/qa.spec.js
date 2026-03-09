@@ -9,7 +9,7 @@ test('QAtitle', async ({ page }) => {
     console.log("Git Title Verified");
 
     await page.getByRole('link', { name: 'Sign in' }).click();
-    expect(page).toHaveURL('https://github.com/logins');
+    expect(page).toHaveURL('https://github.com/login');
 
     console.log("Git Login Page verified");
 
