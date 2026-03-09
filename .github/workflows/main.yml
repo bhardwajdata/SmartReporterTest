@@ -50,3 +50,30 @@ jobs:
           publish_dir: Test_Project/tests/
           publish_branch: gh-pages
           force_orphan: true
+
+      - name: Send Playwright report via email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USER }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Playwright Test Report – Build #${{ github.run_number }}"
+          body: |
+            Hi Team,
+
+            The Playwright test report for build #${{ github.run_number }} is available:
+
+            https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/index.html
+
+            Workflow: ${{ github.workflow }}
+            Triggered by: ${{ github.event_name }}
+
+            Regards,
+            CI/CD Automation Bot
+          to: ${{ secrets.Mail_Username }}
+          from: ${{ secrets.EMAIL_USER }}
+
+      - name: Fail workflow if tests failed
+        if: failure()
+        run: exit 1
