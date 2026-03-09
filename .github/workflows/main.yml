@@ -47,6 +47,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: Test_Project/tests
+          publish_dir: Test_Project/tests/smart-report.html
           publish_branch: gh-pages
           force_orphan: true
