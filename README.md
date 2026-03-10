@@ -41,7 +41,21 @@ Generates Smart reports
 To trigger the workflow, click on run workflow in Actions.
 main.yml can be customized for parallel runs, artifacts, or notifications.
 
-## Github Pages Implementation
+# To install smart reporter  
+npm install playwright-smart-reporter  
+
+# To initialize in playwright.config.js file    
+reporter: [   
+    ['list'],    
+    ['playwright-smart-reporter', {   
+      outputFolder: 'test-results',    
+      filename: 'report.html',     
+      open: 'never'    
+    }]    
+  ],     
+
+## Github Pages Implementation   
+  
 To deploy reports on github pages.
 
 In yml file permissions--> contents --> as write 
