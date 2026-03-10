@@ -42,13 +42,24 @@ To trigger the workflow, click on run workflow in Actions.
 main.yml can be customized for parallel runs, artifacts, or notifications.
 
 ## Github Pages Implementation
-To deploy reports on github pages 
-In yml file permissions--> contents --> as write
-Go to Repo settings --> Actions --> General --> Allow all actions and reusable workflows
-Scroll down to Workflow permissions --> Read and write permissions
-Commit something and wait for the pages build and deployment to start
-Once done check in Code if gh-pages is available apart from main branch
-Go to settings --> Pages --> Source --> Brnach --> Select gh-pages instead of main and save
-To share reports to mail or slack go to settings --> Secrets and Variables --> Actions --> new repository secret
-To share reports on mail need to generate app password and add as a secret. Mail password will not work.
-Reports can be shared to accounts which are added as a secret variable. Multiple mail id can be added as the reciever of the report but only one sender is allowed.
+To deploy reports on github pages.
+
+In yml file permissions--> contents --> as write 
+
+Go to Repo settings --> Actions --> General --> Allow all actions and reusable workflows 
+
+Scroll down to Workflow permissions --> Read and write permissions   
+
+Commit something and wait for the pages build and deployment to start    
+
+Once done check in Code if gh-pages is available apart from main branch   
+
+Go to settings --> Pages --> Source --> Brnach --> Select gh-pages instead of main and save  
+
+To share reports to mail or slack go to settings --> Secrets and Variables --> Actions --> new repository secret   
+
+To share reports on mail need to generate app password and add as a secret. Mail password will not work.   
+
+Reports can be shared to accounts which are added as a secret variable. Multiple mail id can be added as the reciever of the report but only one sender is allowed.   
+
+
