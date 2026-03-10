@@ -25,7 +25,7 @@ jobs:
         working-directory: ./Test_Project
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install chromium
         working-directory: ./Test_Project
 
       - name: Run Playwright tests
