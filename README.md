@@ -41,7 +41,7 @@ Generates Smart reports
 To trigger the workflow, click on run workflow in Actions.
 main.yml can be customized for parallel runs, artifacts, or notifications.
 
-# Github Pages Implementation
+## Github Pages Implementation
 To deploy reports on github pages 
 In yml file permissions--> contents --> as write
 Go to Repo settings --> Actions --> General --> Allow all actions and reusable workflows
