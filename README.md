@@ -50,16 +50,16 @@ Go to Repo settings --> Actions --> General --> Allow all actions and reusable w
 
 Scroll down to Workflow permissions --> Read and write permissions   
 
-Commit something and wait for the pages build and deployment to start    
+Commit something and wait for the pages build and deployment to trigger    
 
 Once done check in Code if gh-pages is available apart from main branch   
 
-Go to settings --> Pages --> Source --> Brnach --> Select gh-pages instead of main and save  
+Go to settings --> Pages --> Source --> Branch --> Select gh-pages instead of main and save  
 
 To share reports to mail or slack go to settings --> Secrets and Variables --> Actions --> new repository secret   
 
 To share reports on mail need to generate app password and add as a secret. Mail password will not work.   
 
-Reports can be shared to accounts which are added as a secret variable. Multiple mail id can be added as the reciever of the report but only one sender is allowed.   
+Reports can be shared to accounts which are added as a secret variable. Multiple mail id can be added as the reciever but only one sender is allowed.   
 
 
